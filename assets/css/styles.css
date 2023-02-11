@@ -52,6 +52,7 @@
   font-family: var(--body-font);
 }
 
+
 /* body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
@@ -89,6 +90,7 @@ a {
 /* profile */
 .profileContainer .row .col img{
   width: 10rem;
+
 }
 
 .profileIcons i{
@@ -162,7 +164,7 @@ height: 3rem;
   -o-border-radius: 8px;
 }
 .cardWrapper{
-  background-color:#D61355;
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
   border-radius: 10px;
   overflow: hidden;
   -webkit-border-radius: 10px;
@@ -184,8 +186,11 @@ img#heroAsset{
 }
 
 .footer{
-  height: 300px;
-  background-color: #645CBB;
+  height: 310px;
+  /* background-color: #645CBB; */
+  /* background-color: #645CBB; */
+  background-image: linear-gradient(to right, #645cbb, #9459b6, #ba56ab, #d7569b, #ec5d89);
+ 
 }
 .footer a{
   color: black;
