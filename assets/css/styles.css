@@ -72,6 +72,7 @@ ul {
 
 a {
   text-decoration: none;
+  
 }
 
 .darkMode{
@@ -83,6 +84,8 @@ a {
 /* icons */  
 .main-page .topIcon i{
   font-size: 30px;
+  cursor: pointer;
+  
 }
 .topContainer{
   margin-top: 20px;
@@ -207,10 +210,20 @@ img#heroAsset{
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+@media(max-width:960px){
+
+  .searchBox input{
+    width: 10rem;
+    
+  }
+}
 
 .bottomPart{
   width: 100%;
   height: 10px;
 }
+
+
+/* time */
 
 

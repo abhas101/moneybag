@@ -11,6 +11,8 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <!--=============== REMIX ICONS ===============-->
+    <!-- animate on scroll cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -25,14 +27,22 @@
 </head>
 
 <body id="body">
+
+
+
+
+    
     <!--=============== HEADER PROFILE ===============-->
     <!-- main page start -->
     <div class="main-page " id="top">
+        <!-- navbar start -->
+        <!-- navbar end -->
         <!-- top icon start -->
         <div class="container topContainer">
             <div class="row d-flex text-end">
                 <div class="col topIcon">
                     <i class='bx bx-moon' id="moonIcon"></i>
+
                 </div>
             </div>
         </div>
@@ -41,7 +51,7 @@
         <!-- photo section start -->
         <div class="container profileContainer ">
             <div class="row d-flex text-center align-items-center ">
-                <div class="col ">
+                <div class="col " >
                     <img src="./assets/img/circleProfile.png" alt="">
                     <h1 class="mb-0 text-uppercase">Abhas Kumar</h1>
                     <p>Web Developer</p>
@@ -101,17 +111,21 @@
         <!-- buttons end -->
 
         <!-- about me -->
-        <div class="container aboutMe mt-5">
+        <div class="container aboutMe mt-5" >
             <div class="row text-center">
                 <h3>About Me</h3>
             </div>
             <div class="row">
                 <div class="col text-center">
                     <img src="./assets/img/hero.jpg" class="heroImage" id="heroPhoto">
-                    <p class="mt-2">I am a passionate Web developer from INDIA. I create websites with out of the box
-                        thinking and latest modern Technology and by following the trending modern web Design. </p>
-                    <p>We also provide services for <strong> UI/UX, API, Software Developement, Brand Uplift and many
-                            more. </strong></p>
+                    <div data-aos="fade-up">
+
+                        
+                        <p class="mt-2">I am a passionate Web developer from INDIA. I create websites with out of the box
+                            thinking and latest modern Technology and by following the trending modern web Design. </p>
+                            <p>We also provide services for <strong> UI/UX, API, Software Developement, Brand Uplift and many
+                                more. </strong></p>
+                    </div>
                 </div>
             </div>
 
@@ -126,10 +140,10 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-sm-12 mt-2">
-                    <div class="cardWrapper d-flex justify-content-center flex-column align-items-center p-1 shadow">
+                    <div class="cardWrapper d-flex justify-content-center flex-column align-items-center p-1 shadow" data-aos="zoom-in-up" >
                         <div class="cardBody" id="cardBack">
                             <img src="./assets/projects/vecteezy_space-tour-vector-illustration_.jpg
-                            " alt="" class="shadow">
+                            " alt="" class="shadow" >
                         </div>
                         <div class="cardTitle text-center">
                             <h2 class="text-center projectName">RichKid</h2>
@@ -141,7 +155,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12 mt-2">
-                    <div class="cardWrapper d-flex justify-content-center flex-column align-items-center p-1 shadow">
+                    <div class="cardWrapper d-flex justify-content-center flex-column align-items-center p-1 shadow" data-aos="zoom-in-up">
                         <div class="cardBody" id="cardBack">
                             <img src="./assets/img/heroAsset.png" id="heroAsset">
                         </div>
@@ -159,13 +173,7 @@
 
         </div>
 
-
-
-
         <!-- tabs end -->
-
-
-
         <!-- footer start -->
 
         <div class="container-fluid footer mt-5">
@@ -177,7 +185,7 @@
                     <div class="searchBox">
                         <form method="POST"
                             action="https://script.google.com/macros/s/AKfycbyCSrl1azwHAqmjfbGIEfi2bU7wPhIMnMFIE_7yAxmc2zu5EHxOAKM-ohih5mveEgw/exec"
-                            id="my-form">
+                            id="my-form" class="container">
                             <input name="Email" type="email" placeholder="Email" required class="mt-1">
                             <input name="Name" type="text" placeholder="Name" required class="mt-1">
                             <button class="btn btn-secondary mt-1" type="submit">Send</button>
@@ -205,7 +213,13 @@
 
     <!-- main page end -->
 
+    <!-- scripts -->
+
+    <!-- animate on scroll script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <!--=============== SCROLLREVEAL ===============-->
+
     <script src="./assets/js/scrollreveal.min.js"></script>
 
     <!-- box icons -->

@@ -28,3 +28,9 @@ window.addEventListener('scroll',()=>{
 })
 
 // image animation end
+
+let time = document.getElementById('time');
+
+// scoll
+AOS.init();
+
